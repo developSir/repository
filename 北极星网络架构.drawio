@@ -1,20 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T10:14:47.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ixuNzWL5XnmNYuZbch3-" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T10:23:39.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ROiigZxBUCWLE1cDSfok" version="20.4.0" type="github">
   <diagram id="M5F1hp7uvuzeiIw6k6TS" name="第 1 页">
     <mxGraphModel dx="1422" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Wuoafag_e7uJaNjNSKO9-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="309" y="560" as="sourcePoint" />
-            <mxPoint x="309" y="120" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-63" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="90" width="260" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="Wuoafag_e7uJaNjNSKO9-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="549" y="550" as="sourcePoint" />
-            <mxPoint x="549" y="110" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-60" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="90" width="230" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="90" width="300" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Wuoafag_e7uJaNjNSKO9-17" value="金融城域网" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="109" y="120" width="90" height="30" as="geometry" />
@@ -25,7 +22,7 @@
         <mxCell id="Wuoafag_e7uJaNjNSKO9-19" value="人行业务网" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="639" y="120" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Wuoafag_e7uJaNjNSKO9-21" value="机构用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-21" value="业务人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="29" y="320" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wuoafag_e7uJaNjNSKO9-23" value="机构端应用服务器" style="swimlane;" vertex="1" parent="1">
@@ -49,6 +46,11 @@
             <mxPoint x="139" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-56" value="数据查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wuoafag_e7uJaNjNSKO9-33">
+          <mxGeometry x="-0.3143" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Wuoafag_e7uJaNjNSKO9-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wuoafag_e7uJaNjNSKO9-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="279" y="340" as="sourcePoint" />
@@ -66,12 +68,6 @@
         </mxCell>
         <mxCell id="Wuoafag_e7uJaNjNSKO9-40" value="北极星平台后台&lt;br&gt;接口服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wuoafag_e7uJaNjNSKO9-37">
           <mxGeometry x="25" y="50" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Wuoafag_e7uJaNjNSKO9-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Wuoafag_e7uJaNjNSKO9-37">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-55" y="190" as="sourcePoint" />
-            <mxPoint x="-5" y="80" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Wuoafag_e7uJaNjNSKO9-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -99,6 +95,17 @@
         </mxCell>
         <mxCell id="Wuoafag_e7uJaNjNSKO9-45" value="Mysql/Teradata" style="whiteSpace=wrap;html=1;" vertex="1" parent="Wuoafag_e7uJaNjNSKO9-39">
           <mxGeometry x="90" y="80" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="523" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wuoafag_e7uJaNjNSKO9-58" value="数据查询推送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Wuoafag_e7uJaNjNSKO9-57">
+          <mxGeometry x="0.328" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="24" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
